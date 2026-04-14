@@ -2,7 +2,7 @@
 
 
 module.exports = {
-  up: (queryInterface, Sequelize) => queryInterface.createTable('clients', {
+  up: (queryInterface, Sequelize) => queryInterface.createTable('products', {
     id: {
       autoIncrement: true,
       primaryKey: true,
@@ -11,13 +11,18 @@ module.exports = {
     name: {
       type: Sequelize.STRING,
     },
-    email: {
+    brand: {
       allowNull: false,
       type: Sequelize.STRING,
     },
-    birthday: {
+    price: {
       allowNull: false,
-      type: Sequelize.DATE,
+      type: Sequelize.DECIMAL(10, 2),
+    },
+    stock_quantity: {
+      allowNull: false,
+      type: Sequelize.INTEGER,
+      defaultValue: 0,
     },
     created_at: {
       allowNull: false,
@@ -28,5 +33,5 @@ module.exports = {
       type: Sequelize.DATE,
     },
   }),
-  down: queryInterface => queryInterface.dropTable('clients'),
+  down: queryInterface => queryInterface.dropTable('products'),
 };
