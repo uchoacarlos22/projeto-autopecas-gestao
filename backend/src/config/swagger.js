@@ -4,12 +4,12 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Zenith Autoparts API',
+      title: 'RM auto peças API',
       version: '1.0.0',
       description: 'API corporativa para gerenciamento de estoque de peças automotivas e logística.',
       contact: {
         name: 'Suporte Técnico',
-        email: 'suporte@zenithautoparts.com'
+        email: 'suporte@rmautopecas.com'
       }
     },
     servers: [

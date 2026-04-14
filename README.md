@@ -1,8 +1,8 @@
-# 🛠️ Zenith Autoparts - Sistema de Gestão
+# 🛠️ RM auto peças - Sistema de Gestão
 
 ## Descrição
 
-O **Zenith Autoparts** é uma API de alto nível desenvolvida para o gerenciamento de estoque de **auto peças e produtos automotivos**. Este projeto foi evoluído de um CRUD básico para uma solução backend robusta, focada em escalabilidade corporativa, segurança e documentação de excelência.
+O **RM auto peças** é uma API de alto nível desenvolvida para o gerenciamento de estoque de **auto peças e produtos automotivos**. Este projeto foi evoluído de um CRUD básico para uma solução backend robusta, focada em escalabilidade corporativa, segurança e documentação de excelência.
 
 ### 🌟 Diferenciais Técnicos (Elite)
 - **Documentação Live (Swagger/OpenAPI 3.0):** Interface interativa disponível em `/api-docs` para testes em tempo real.
